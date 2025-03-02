@@ -1,0 +1,29 @@
+event_booking_system/
+├── app/
+│   ├── controllers/
+│   │   ├── bookings_controller.rb
+│   │   ├── customers_controller.rb
+│   │   ├── event_organizers_controller.rb
+│   │   ├── events_controller.rb
+│   │   └── tickets_controller.rb
+│   ├── models/
+│   │   ├── booking.rb
+│   │   ├── customer.rb
+│   │   ├── event.rb
+│   │   ├── event_organizer.rb
+│   │   └── ticket.rb
+├── config/
+│   ├── routes.rb
+│   ├── database.yml
+│   └── ...
+├── db/
+│   ├── migrate/
+│   │   ├── 20250302190000_create_customers.rb
+│   │   ├── 20250302190100_create_event_organizers.rb
+│   │   ├── 20250302190200_create_events.rb
+│   │   ├── 20250302190300_create_tickets.rb
+│   │   └── 20250302190400_create_bookings.rb
+│   └── schema.rb
+├── Gemfile
+├── README.md
+└── ...

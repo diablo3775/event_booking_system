@@ -34,13 +34,13 @@
 - Users can sign up and log in.
 
 ### Events Management
-- `POST /events` (Organizer only) - Create an event
-- `GET /events` - List all events
-- `PUT /events/:id` (Organizer only) - Update an event
-- `DELETE /events/:id` (Organizer only) - Delete an event
+- `POST api/v1/events` (Organizer only) - Create an event
+- `GET api/v1/events` - List all events
+- `PUT api/v1/events/:id` (Organizer only) - Update an event
+- `DELETE api/v1/events/:id` (Organizer only) - Delete an event
 
 ### Ticket Booking
-- `POST /bookings` (Customer only) - Create a booking
+- `POST api/v1/bookings` (Customer only) - Create a booking
 
 ## Code Structure
 
